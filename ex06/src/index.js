@@ -1,12 +1,10 @@
 const firstName = (firstName) => {
-    var uppercase = firstName.toUpperCase();
-    return uppercase;
+    return firstName.toUpperCase() ;
 
 }
 const lastName = (lastName) => {
-    var lovercase = lastName.toLowerCase();
-    return lovercase;
-
+    return lastName.toLowerCase();
+     
 }
 exports.firstName = firstName;
 exports.lastName = lastName;
